@@ -101,8 +101,26 @@
     margin: 15px
 }
 
+.demo{
+    background-color:#00A3FF;
+}
+
 .home-btn:hover{
     cursor: pointer;
+}
+
+.clock-img{
+    width:250px;
+    position: absolute;
+    left: 75%;
+    top:  70%
+}
+
+.happy-img{
+    width:250px;
+    position: absolute;
+    right: 75%;
+    top:  70%
 }
 
 
@@ -122,6 +140,9 @@
     .home-btn{
         padding:20px 20px;
         margin: 10px
+    }
+    .img{
+        display: none;
     }
 }
 
